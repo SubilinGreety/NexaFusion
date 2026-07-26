@@ -15,7 +15,7 @@ export default function AboutPage() {
             Our Story
           </span>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4 mt-3">
-            About <span className="text-gradient">NexaFusion</span>
+            About <span className="text-gradient">NexaFusion Groups</span>
           </h1>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto leading-relaxed">
             A passionate startup delivering construction, waterproofing, content creation, digital marketing,

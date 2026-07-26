@@ -23,42 +23,42 @@ const aiDigitalServices = [
     title: "Website Development",
     desc: "High-performance Next.js & React web applications optimized for speed, SEO, and conversions.",
     color: "text-blue-600 bg-blue-50 border-blue-200",
-    href: "/services#website-development",
+    href: "/services/website-development",
   },
   {
     icon: Smartphone,
     title: "App Development",
     desc: "Native and cross-platform iOS & Android mobile apps engineered with React Native and Flutter.",
     color: "text-sky-600 bg-sky-50 border-sky-200",
-    href: "/services#mobile-app-development",
+    href: "/services/mobile-app-development",
   },
   {
     icon: Megaphone,
     title: "Digital Marketing",
     desc: "Data-driven SEO, Google Ads, Meta campaign management, and sales funnel growth strategies.",
     color: "text-cyan-600 bg-cyan-50 border-cyan-200",
-    href: "/services#digital-marketing",
+    href: "/services/digital-marketing",
   },
   {
     icon: Sparkles,
     title: "Branding",
     desc: "Comprehensive brand identity packages — visual guidelines, logos, typography, and messaging.",
     color: "text-indigo-600 bg-indigo-50 border-indigo-200",
-    href: "/services#branding",
+    href: "/services/branding",
   },
   {
     icon: Video,
     title: "Content Creation",
     desc: "Cinematic product video production, social reels, photography, and high-converting copywriting.",
     color: "text-purple-600 bg-purple-50 border-purple-200",
-    href: "/services#content-creation",
+    href: "/services/content-creation",
   },
   {
     icon: Bot,
     title: "AI Automations",
     desc: "Custom AI agents, intelligent workflow automation, chatbots, and enterprise process optimization.",
     color: "text-violet-600 bg-violet-50 border-violet-200",
-    href: "/services#ai-automations",
+    href: "/services/ai-automations",
   },
 ];
 
@@ -69,35 +69,35 @@ const constructionAiServices = [
     title: "Construction",
     desc: "Turnkey civil & structural building construction — residential, commercial, & RCC framing.",
     color: "text-amber-600 bg-amber-50 border-amber-200",
-    href: "/services#construction",
+    href: "/services/construction",
   },
   {
     icon: Droplets,
     title: "Waterproofing",
     desc: "Advanced polyurethane terrace membranes & basement crystalline leak-proofing treatments.",
     color: "text-blue-700 bg-blue-50 border-blue-200",
-    href: "/services#waterproofing",
+    href: "/services/waterproofing",
   },
   {
     icon: LayoutDashboard,
     title: "Interior Design",
     desc: "Bespoke residential & office space planning, modular furniture, and custom acoustic interiors.",
     color: "text-rose-600 bg-rose-50 border-rose-200",
-    href: "/services#interior-design",
+    href: "/services/interior-design",
   },
   {
     icon: Home,
     title: "Exterior Design",
     desc: "Modern facade elevation, weather-resistant ACP cladding, vertical gardens, & landscaping.",
     color: "text-emerald-600 bg-emerald-50 border-emerald-200",
-    href: "/services#exterior-design",
+    href: "/services/exterior-design",
   },
   {
     icon: Cpu,
     title: "Smart Home Installation",
     desc: "AI-driven home automation hubs, IoT smart lighting, climate controls, & integrated security.",
     color: "text-teal-600 bg-teal-50 border-teal-200",
-    href: "/services#smart-home-installation",
+    href: "/services/smart-home-installation",
   },
 ];
 
@@ -116,7 +116,7 @@ export default function ServicesSection() {
             <span className="text-gradient">Two Core Domains</span>
           </h2>
           <p className="text-slate-500 mt-4 leading-relaxed text-base sm:text-lg">
-            NexaFusion bridges digital innovation with physical infrastructure — delivering 11 specialized services organized into two distinct domain columns.
+            NexaFusion Groups bridges digital innovation with physical infrastructure — delivering 11 specialized services organized into two distinct domain columns.
           </p>
         </div>
 

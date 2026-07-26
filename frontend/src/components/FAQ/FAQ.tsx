@@ -5,8 +5,8 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "What types of construction projects does NexaFusion handle?",
-    a: "NexaFusion manages a full range of construction projects — residential homes, commercial office spaces, industrial facilities, and renovation works. Every project is executed with precision, quality materials, and a commitment to on-time delivery.",
+    q: "What types of construction projects does NexaFusion Groups handle?",
+    a: "NexaFusion Groups manages a full range of construction projects — residential homes, commercial office spaces, industrial facilities, and renovation works. Every project is executed with precision, quality materials, and a commitment to on-time delivery.",
   },
   {
     q: "How long does a typical waterproofing project take?",
@@ -17,8 +17,8 @@ const faqs = [
     a: "Absolutely. For all design services (Interior, Exterior, UI/UX, Logo), we provide detailed mockups, mood boards, and prototypes for your review before any work begins. We don't move forward until you are 100% satisfied with the direction.",
   },
   {
-    q: "What services does NexaFusion offer for digital needs?",
-    a: "NexaFusion covers the full spectrum of digital services — website development, app development (iOS & Android), UI/UX design, logo design, content creation, and digital marketing including SEO, social media, and paid campaigns.",
+    q: "What services does NexaFusion Groups offer for digital needs?",
+    a: "NexaFusion Groups covers the full spectrum of digital services — website development, app development (iOS & Android), UI/UX design, logo design, content creation, and digital marketing including SEO, social media, and paid campaigns.",
   },
   {
     q: "How do you handle project communication and updates?",

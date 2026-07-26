@@ -1,17 +1,17 @@
 import { ServiceItem, PortfolioItem, TestimonialItem, TeamMember, FAQItem, BlogPost } from '@/types';
 
 export const COMPANY_INFO = {
-  name: "NexaFusion",
+  name: "NexaFusion Groups",
   tagline: "Building Intelligent Futures",
   description: "NexaFusion is a dynamic multi-service startup combining high-precision physical infrastructure (Construction, Waterproofing, Interior & Exterior Design) with cutting-edge digital agency solutions (Web & App Development, UI/UX, Content Creation, Branding, Digital Marketing).",
-  experience: "1 Month of Industry Experience",
+  experience: "1 Year of Industry Experience",
   stats: {
-    experienceMonths: 1,
-    completedProjects: 6,
-    happyClients: 6,
-    constructionProjects: 2,
-    waterproofingProjects: 2,
-    contentProjects: 2,
+    experienceMonths: 12,
+    completedProjects: 50,
+    happyClients: 50,
+    constructionProjects: 15,
+    waterproofingProjects: 15,
+    contentProjects: 20,
   },
   contact: {
     phone: "+91 8825657848",
@@ -36,14 +36,37 @@ export const SERVICES: ServiceItem[] = [
     title: "Website Development",
     slug: "website-development",
     shortDesc: "High-performance Next.js & React web applications optimized for speed, SEO, and conversions.",
-    fullDesc: "We engineer lightning-fast, responsive web applications using React, Next.js, and modern CSS. Built with accessibility, security, and search engine visibility at the core.",
+    fullDesc: "We engineer lightning-fast, responsive web applications using React, Next.js, and modern CSS. Built with accessibility, security, and search engine visibility at the core, our custom web platforms convert visitors into loyal clients.",
     iconName: "Code",
     category: "AI & Digital Solutions",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+    ],
     features: [
       "Next.js App Router & React Architecture",
       "Custom E-Commerce & Web Platforms",
       "Static Site Generation & Server-Side Rendering",
       "SEO Optimization & Core Web Vitals Audit"
+    ],
+    benefits: [
+      "99+ Lighthouse speed score performance",
+      "Responsive design tailored for desktop & mobile",
+      "Enterprise-grade security and SSL integration",
+      "Seamless API and analytics integration"
+    ],
+    deliverables: [
+      "Production-ready Web Source Code",
+      "Custom Admin CMS Dashboard",
+      "SEO Meta Tag & Analytics Setup",
+      "1-Month Post-Launch Free Bug-Fix Support"
+    ],
+    process: [
+      { step: "01", title: "Discovery & Wireframing", desc: "Understanding client goals, target audience, user flow, and architecture layout." },
+      { step: "02", title: "UI/UX Design", desc: "Crafting interactive prototypes with sleek typography, smooth animations, and accessibility." },
+      { step: "03", title: "Frontend & Backend Dev", desc: "Developing clean, performant React/Next.js components and integrating API backends." },
+      { step: "04", title: "Testing & Deployment", desc: "Rigorous cross-browser testing, SEO audit, and deployment to high-speed Vercel/AWS servers." }
     ]
   },
   {
@@ -51,14 +74,37 @@ export const SERVICES: ServiceItem[] = [
     title: "App Development",
     slug: "mobile-app-development",
     shortDesc: "Native and cross-platform mobile apps for iOS and Android built with React Native & Flutter.",
-    fullDesc: "Deliver frictionless mobile experiences. We craft cross-platform iOS & Android mobile applications featuring real-time synchronization, push notifications, and offline caching.",
+    fullDesc: "Deliver frictionless mobile experiences. We craft cross-platform iOS & Android mobile applications featuring real-time synchronization, push notifications, offline caching, and high-FPS UI rendering.",
     iconName: "Smartphone",
     category: "AI & Digital Solutions",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=800&q=80"
+    ],
     features: [
       "Cross-Platform iOS & Android Development",
       "React Native & Flutter Mobile Apps",
       "REST & GraphQL API Synchronization",
       "App Store & Google Play Publishing"
+    ],
+    benefits: [
+      "Single codebase for simultaneous iOS & Android deployment",
+      "Sub-second offline data syncing and push notifications",
+      "Biometric security and encrypted local storage",
+      "Seamless integration with cloud databases"
+    ],
+    deliverables: [
+      "iOS App Store (.ipa) & Google Play (.apk) Builds",
+      "Complete Source Code Repository",
+      "Push Notification & Backend API Setup",
+      "App Store Listing & Guidelines Approval"
+    ],
+    process: [
+      { step: "01", title: "App Architecture & Flow", desc: "Mapping user navigation, offline storage strategy, and API endpoints." },
+      { step: "02", title: "Mobile UI Design", desc: "Building thumb-friendly interfaces with dark/light themes and native feel." },
+      { step: "03", title: "App Development", desc: "Coding in React Native / Flutter with state management and API bindings." },
+      { step: "04", title: "Store Submission", desc: "Submitting binary builds to Apple App Store and Google Play Store for approval." }
     ]
   },
   {
@@ -66,14 +112,37 @@ export const SERVICES: ServiceItem[] = [
     title: "Digital Marketing",
     slug: "digital-marketing",
     shortDesc: "Data-driven SEO, Google Ads, meta campaign management, and conversion funnel optimization.",
-    fullDesc: "Amplify your reach and generate verified business leads. We execute targeted PPC campaigns, localized SEO strategies, social media marketing, and conversion rate optimization.",
+    fullDesc: "Amplify your reach and generate verified business leads. We execute targeted PPC campaigns, localized SEO strategies, social media marketing, and conversion rate optimization to maximize return on ad spend (ROAS).",
     iconName: "TrendingUp",
     category: "AI & Digital Solutions",
+    image: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+    ],
     features: [
       "Search Engine Optimization (SEO & Local Pack)",
       "Pay-Per-Click (Google Ads & Meta Ads)",
       "Social Media Campaign Management",
       "Conversion Rate Optimization & Analytics"
+    ],
+    benefits: [
+      "Targeted lead acquisition with high buyer intent",
+      "Transparent weekly performance dashboards",
+      "A/B split testing for ad creatives & landing pages",
+      "Higher local search visibility on Google Maps"
+    ],
+    deliverables: [
+      "Google & Meta Ad Campaign Setup",
+      "SEO Keyword Strategy & Technical Audit",
+      "High-Converting Ad Copy & Visual Creatives",
+      "Monthly Growth Analytics & ROI Reports"
+    ],
+    process: [
+      { step: "01", title: "Audit & Audience Research", desc: "Analyzing competitors, target demographics, and search intent keywords." },
+      { step: "02", title: "Campaign Strategy", desc: "Structuring search ads, social retargeting, and lead capture funnels." },
+      { step: "03", title: "Ad Execution", desc: "Designing ad creatives, writing copy, and launching targeted campaigns." },
+      { step: "04", title: "Optimization", desc: "Refining negative keywords, adjusting bid strategies, and scaling winning ads." }
     ]
   },
   {
@@ -81,14 +150,37 @@ export const SERVICES: ServiceItem[] = [
     title: "Branding",
     slug: "branding",
     shortDesc: "Comprehensive brand identity packages including visual guidelines, typography, and brand messaging.",
-    fullDesc: "Establish a distinct brand identity that commands attention. We craft brand positioning, color palettes, visual guidelines, stationary, and brand story books for modern businesses.",
+    fullDesc: "Establish a distinct brand identity that commands attention. We craft brand positioning, color palettes, logo designs, typography, stationery, and brand story books for modern businesses.",
     iconName: "Sparkles",
     category: "AI & Digital Solutions",
+    image: "https://images.unsplash.com/photo-1600508774634-4e11d34730e2?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1542744094-3a31727202b3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80"
+    ],
     features: [
       "Brand Strategy & Market Positioning",
       "Visual Style Guides & Color Palettes",
       "Corporate Stationery & Packaging Design",
       "Brand Storytelling & Voice Guidelines"
+    ],
+    benefits: [
+      "Cohesive brand image across print and digital media",
+      "Memorable logo assets in vector formats (SVG, EPS)",
+      "Clear brand voice and messaging framework",
+      "Higher brand recognition and customer trust"
+    ],
+    deliverables: [
+      "Master Logo Suite (Primary, Secondary, Monogram)",
+      "Comprehensive Brand Style Guideline PDF",
+      "Business Cards & Letterhead Templates",
+      "Social Media Kit (Profile & Banner Templates)"
+    ],
+    process: [
+      { step: "01", title: "Brand Discovery", desc: "Uncovering company values, mission, target market, and visual preferences." },
+      { step: "02", title: "Concept Exploration", desc: "Designing multiple logo concepts, typography pairings, and color palettes." },
+      { step: "03", title: "Refinement", desc: "Polishing selected design direction based on client feedback." },
+      { step: "04", title: "Brand Delivery", desc: "Packaging all vector files, brand guidelines, and print templates." }
     ]
   },
   {
@@ -96,14 +188,37 @@ export const SERVICES: ServiceItem[] = [
     title: "Content Creation",
     slug: "content-creation",
     shortDesc: "Professional video production, high-impact social reels, blog articles, and copywriting.",
-    fullDesc: "Engage your target audience with compelling stories. We produce cinematic product videos, high-performing Instagram reels, corporate photography, and SEO-optimized blog copy.",
+    fullDesc: "Engage your target audience with compelling visual stories. We produce cinematic product videos, high-performing Instagram reels, corporate photography, and SEO-optimized blog copy.",
     iconName: "Video",
     category: "AI & Digital Solutions",
+    image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=800&q=80"
+    ],
     features: [
       "Cinematic Video Production & Editing",
       "Social Reels & Short-Form Content Creation",
       "Corporate Photography & Visual Assets",
       "SEO Copywriting & Blog Strategy"
+    ],
+    benefits: [
+      "High-engagement video content built for viral reach",
+      "Studio-grade lighting and 4K camera gear",
+      "Consistent content pipeline for monthly social growth",
+      "SEO-driven copy that ranks on search engines"
+    ],
+    deliverables: [
+      "Edited 4K Promo Videos & Vertical Reels",
+      "High-Res Corporate & Product Photos",
+      "SEO Blog Articles & Website Copy",
+      "Social Media Content Calendar"
+    ],
+    process: [
+      { step: "01", title: "Scripting & Storyboarding", desc: "Planning video concepts, hook scripts, and visual shot lists." },
+      { step: "02", title: "On-Site Shoot", desc: "Filming with professional cinema cameras, drones, audio gear, and studio lighting." },
+      { step: "03", title: "Post-Production", desc: "Color grading, motion graphics editing, sound design, and captioning." },
+      { step: "04", title: "Content Delivery", desc: "Exporting optimized video formats ready for Instagram, YouTube, and website embed." }
     ]
   },
   {
@@ -111,14 +226,37 @@ export const SERVICES: ServiceItem[] = [
     title: "AI Automations",
     slug: "ai-automations",
     shortDesc: "Custom AI agents, intelligent workflow automation, chatbots, and enterprise process optimization.",
-    fullDesc: "Leverage cutting-edge artificial intelligence to automate repetitive business processes, deploy autonomous AI agents, integrate LLM workflows, and optimize customer interactions.",
+    fullDesc: "Leverage cutting-edge artificial intelligence to automate repetitive business processes, deploy autonomous AI agents, integrate LLM workflows, and optimize customer interactions with round-the-clock efficiency.",
     iconName: "Bot",
     category: "AI & Digital Solutions",
+    image: "https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=800&q=80"
+    ],
     features: [
       "Custom AI Chatbots & Customer Assistants",
       "Business Process & Workflow Automation",
       "LLM Integration & Fine-Tuned AI Models",
       "Automated Data Extraction & Analytics"
+    ],
+    benefits: [
+      "24/7 instant customer support with custom trained AI",
+      "Reduced manual operational overhead by up to 80%",
+      "Seamless API connection with WhatsApp, CRM, and email",
+      "Intelligent data parsing and lead qualification"
+    ],
+    deliverables: [
+      "Custom Trained AI Agent / Chatbot",
+      "Automated Zapier / Make / Python Workflows",
+      "WhatsApp & Web Chat Widget Embed",
+      "Admin Analytics Dashboard & Fine-Tuning"
+    ],
+    process: [
+      { step: "01", title: "Workflow Audit", desc: "Mapping manual tasks, customer inquiry bottlenecks, and data flows." },
+      { step: "02", title: "AI Model Fine-Tuning", desc: "Training AI agents on company documentation, FAQs, and product catalogs." },
+      { step: "03", title: "Integration", desc: "Connecting AI agents into WhatsApp, website chat widgets, CRMs, and email." },
+      { step: "04", title: "Deployment & Monitoring", desc: "Launching automated workflows with safety guardrails and continuous accuracy tuning." }
     ]
   },
 
@@ -131,11 +269,34 @@ export const SERVICES: ServiceItem[] = [
     fullDesc: "From structural foundations to turnkey residential villas and commercial units, NexaFusion delivers high-durability RCC framing, safety-tested concrete pouring, and architectural precision for physical infrastructure.",
     iconName: "HardHat",
     category: "Construction & AI Solutions",
+    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80"
+    ],
     features: [
       "Residential Villa & Multi-Storey Construction",
       "RCC Framed Structures & Foundation Engineering",
       "Turnkey Project Management & On-Site Quality Audits",
       "Eco-Friendly Drainage & Structural Framing"
+    ],
+    benefits: [
+      "On-time delivery with zero compromise on concrete grade",
+      "Complete transparency with milestone progress tracking",
+      "Safety-certified structural engineers and site supervisors",
+      "Comprehensive structural warranty"
+    ],
+    deliverables: [
+      "Approved Architectural & Structural 2D/3D Drawings",
+      "Turnkey RCC Structure & Masonry Construction",
+      "Electrical, Plumbing & Drainage Infrastructure",
+      "Structural Safety & Occupancy Quality Certificate"
+    ],
+    process: [
+      { step: "01", title: "Soil Testing & Planning", desc: "Conducting soil load testing, architectural blueprinting, and government approvals." },
+      { step: "02", title: "Foundation & Framing", desc: "Excavation, footings, RCC column casting, and structural beam reinforcement." },
+      { step: "03", title: "Masonry & Utilities", desc: "Bricklaying, MEP (Mechanical, Electrical, Plumbing) conduit installation, and plastering." },
+      { step: "04", title: "Finishing & Handover", desc: "Flooring, painting, fixture installation, site cleanup, and key handover." }
     ]
   },
   {
@@ -146,11 +307,34 @@ export const SERVICES: ServiceItem[] = [
     fullDesc: "Protect your buildings against moisture, seepage, and structural deterioration. We apply crystalline coatings, elastomeric polyurethane terrace membranes, and negative-side basement treatments.",
     iconName: "Droplets",
     category: "Construction & AI Solutions",
+    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80"
+    ],
     features: [
       "Polyurethane Terrace & Roof Waterproofing",
       "Negative-Side Basement Leak Remediation",
       "Bathroom & Sunken Slab Moisture Barrier",
       "Epoxy Pressure Injection & Structural Crack Sealing"
+    ],
+    benefits: [
+      "Eliminates active water leakage and damp wall stains",
+      "UV-resistant elastomeric coatings that expand with temperature",
+      "Extends building structural lifespan significantly",
+      "Multi-year written waterproofing performance warranty"
+    ],
+    deliverables: [
+      "Comprehensive Thermal & Seepage Site Inspection",
+      "Polyurethane / Crystalline Waterproofing Application",
+      "Post-Application Ponding Leak Test Certificate",
+      "Written Warranty Coverage Documentation"
+    ],
+    process: [
+      { step: "01", title: "Moisture & Leak Inspection", desc: "Identifying seepage root causes using thermal cameras and moisture meters." },
+      { step: "02", title: "Surface Preparation", desc: "High-pressure jet washing, crack v-grooving, and priming substrate." },
+      { step: "03", title: "Membrane Application", desc: "Applying multi-coat elastomeric PU membrane or crystalline barrier." },
+      { step: "04", title: "Water Ponding Test", desc: "Filling terrace/sunken areas with water for 48 hours to certify zero leaks." }
     ]
   },
   {
@@ -161,11 +345,34 @@ export const SERVICES: ServiceItem[] = [
     fullDesc: "Transform raw interiors into functional, aesthetic sanctuaries. We craft modular kitchens, custom acoustic wall paneling, ergonomic office workspaces, and mood-setting LED lighting systems.",
     iconName: "Palette",
     category: "Construction & AI Solutions",
+    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80"
+    ],
     features: [
       "3D Spatial Planning & Photorealistic Rendering",
       "Modular Kitchens & Storage Solutions",
       "Corporate Office Workspace Interiors",
       "Custom Ceiling & Mood Lighting Design"
+    ],
+    benefits: [
+      "Photorealistic 3D visualization before site execution begins",
+      "Custom space-saving modular woodwork and storage",
+      "Ergonomic workspace designs for maximum productivity",
+      "High-grade termite-resistant and moisture-proof materials"
+    ],
+    deliverables: [
+      "3D Renderings & Floor Layout Plans",
+      "Factory-Made Modular Kitchen & Wardrobe Units",
+      "Custom False Ceiling & LED Mood Lighting",
+      "Material Specification & Finish Warranty"
+    ],
+    process: [
+      { step: "01", title: "Space Audit & Client Brief", desc: "Understanding lifestyle, theme preferences, budget, and measurements." },
+      { step: "02", title: "3D Visualization", desc: "Generating photorealistic 3D renders of living rooms, bedrooms, and offices." },
+      { step: "03", title: "Factory Production", desc: "Precision CNC cutting of modular cabinetry and acoustic wall paneling." },
+      { step: "04", title: "On-Site Installation", desc: "Fitting woodwork, ceiling lights, wallpaper, and final styling." }
     ]
   },
   {
@@ -173,14 +380,37 @@ export const SERVICES: ServiceItem[] = [
     title: "Exterior Design",
     slug: "exterior-design",
     shortDesc: "Modern building facade elevation, landscaping, and exterior architectural cladding.",
-    fullDesc: "Elevate your building's curb appeal with weather-resistant ACP cladding, vertical gardens, glass curtain walls, and contemporary exterior lighting design.",
+    fullDesc: "Elevate your building's curb appeal with weather-resistant ACP cladding, vertical gardens, glass curtain walls, and contemporary exterior lighting design that withstands harsh weather.",
     iconName: "Building2",
     category: "Construction & AI Solutions",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80"
+    ],
     features: [
       "Architectural Elevation & 3D Façade Modeling",
       "ACP & HPL Cladding Installations",
       "Landscape & Outdoor Terrace Layouts",
       "Glass Curtain Walls & Weatherproof Lighting"
+    ],
+    benefits: [
+      "Dramatically increases commercial or residential property value",
+      "Weatherproof ACP & HPL panels with heat insulation",
+      "Energy-efficient glass facades and LED exterior lighting",
+      "Stunning 3D elevation renderings prior to execution"
+    ],
+    deliverables: [
+      "3D Exterior Façade Design Renderings",
+      "ACP / HPL Cladding & Structural Frame Installation",
+      "Architectural Glass & Weatherproof Lighting",
+      "Landscape & Compound Wall Finishing"
+    ],
+    process: [
+      { step: "01", title: "Elevation Surveying", desc: "Scanning building structure and studying sun path & weather exposure." },
+      { step: "02", title: "3D Facade Modeling", desc: "Creating modern exterior concepts with material textures and lighting." },
+      { step: "03", title: "Scaffolding & Frame Setup", desc: "Erecting heavy-duty aluminum framing for ACP/HPL cladding." },
+      { step: "04", title: "Panel Fitting & Lighting", desc: "Mounting panels, sealants, glass curtain walls, and outdoor lighting fixtures." }
     ]
   },
   {
@@ -188,14 +418,37 @@ export const SERVICES: ServiceItem[] = [
     title: "Smart Home Installation",
     slug: "smart-home-installation",
     shortDesc: "AI-driven home automation, smart IoT lighting, climate control, and integrated security systems.",
-    fullDesc: "Transform residences and commercial spaces into intelligent environments. We integrate central smart automation hubs, voice-controlled lighting, smart locks, climate sensors, and AI security.",
+    fullDesc: "Transform residences and commercial spaces into intelligent environments. We integrate central smart automation hubs, voice-controlled lighting, smart locks, climate sensors, and AI surveillance.",
     iconName: "Cpu",
     category: "Construction & AI Solutions",
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80"
+    ],
     features: [
       "AI-Powered Smart Automation Hubs",
       "Intelligent Lighting & Climate Control",
       "Biometric & Smart Security Integration",
       "Energy Efficiency & Automated Monitoring"
+    ],
+    benefits: [
+      "Control lighting, AC, & security from your smartphone or voice",
+      "Up to 30% reduction in electricity bills via smart climate scheduling",
+      "Real-time mobile intrusion alerts & biometric door access",
+      "Seamless integration with Alexa, Google Home, & Apple HomeKit"
+    ],
+    deliverables: [
+      "Centralized Smart Automation Controller",
+      "Smart Switches, Dimmers & RGB Strip Lights",
+      "Biometric Smart Door Lock & Video Doorbell",
+      "Mobile App Setup & Voice Assistant Configuration"
+    ],
+    process: [
+      { step: "01", title: "Smart Home Audit", desc: "Evaluating wiring, neutral line access, Wi-Fi coverage, and device needs." },
+      { step: "02", title: "System Configuration", desc: "Programming central hubs, touch panels, scenes, and automation rules." },
+      { step: "03", title: "Hardware Installation", desc: "Replacing traditional switches with touch smart switches, locks, and sensors." },
+      { step: "04", title: "App Sync & Demonstration", desc: "Pairing smartphones, configuring voice control, and client walkthrough." }
     ]
   }
 ];
@@ -275,7 +528,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
     name: "Arun Kumar",
     role: "Project Manager",
     company: "BuildCraft Solutions",
-    content: "NexaFusion completed our 4-unit residential villa construction on schedule. Their RCC framework and structural execution were top notch. Outstanding dedication for a 1-month-old startup!",
+    content: "NexaFusion completed our 4-unit residential villa construction on schedule. Their RCC framework and structural execution were top notch. Outstanding dedication for a 1-year-old company!",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
     rating: 5,
     projectType: "Construction"
@@ -335,40 +588,65 @@ export const TESTIMONIALS: TestimonialItem[] = [
 export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: 1,
-    name: "Viknesh VR",
-    role: "Co-Founder & Head of Physical Infrastructure",
-    bio: "Civil engineering visionary specializing in RCC construction management, structural audits, and site execution.",
+    name: "Vickey",
+    role: "Founder",
+    bio: "Defines the company's vision and strategy, builds partnerships, drives business growth, and oversees major business decisions.",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
-    skills: ["Civil Engineering", "RCC Structures", "Waterproofing", "Site Management"],
-    linkedin: "https://linkedin.com",
-    github: "https://github.com"
+    skills: ["Vision & Strategy", "Partnerships", "Business Growth", "Executive Decision Making"],
+    linkedin: "https://linkedin.com"
   },
   {
     id: 2,
     name: "Hari Prasath",
-    role: "Co-Founder & Head of Digital & Creative Services",
-    bio: "Digital strategist leading full-stack web development, brand identity design, and digital marketing initiatives.",
+    role: "CEO & CTO",
+    bio: "Leads the company and technology strategy, oversees software, AI, websites, and digital solutions, manages technical team, handles client meetings and solution architecture.",
     image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
-    skills: ["Full-Stack Dev", "UI/UX Architecture", "Content Creation", "Digital Marketing"],
+    skills: ["Tech Strategy", "Software & AI", "Solution Architecture", "Technical Leadership"],
     linkedin: "https://linkedin.com",
     github: "https://github.com"
   },
   {
     id: 3,
-    name: "Tamil",
-    role: "Lead Project Coordinator",
-    bio: "Expert project manager overseeing client relations, vendor management, and cross-functional quality assurance.",
+    name: "Bharath",
+    role: "COO",
+    bio: "Manages daily operations, coordinates projects and resources, ensures smooth execution and timely delivery across all domains.",
     image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80",
-    skills: ["Project Management", "Vendor Coordination", "QA Auditing", "Client Success"],
+    skills: ["Operations", "Project Coordination", "Resource Management", "Timely Delivery"],
     linkedin: "https://linkedin.com"
   },
   {
     id: 4,
-    name: "Nexa Engineering Team",
-    role: "Freshers & On-Site Specialists (4 Members)",
-    bio: "Energetic team of junior engineers and digital creators dedicated to rapid execution and high standards across all projects.",
+    name: "Tamil",
+    role: "Finance Head",
+    bio: "Manages accounts, budgeting, quotations, invoices, and financial planning for NexaFusion Groups.",
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=400&q=80",
-    skills: ["AutoCAD", "React/Next.js", "Video Production", "Façade Rendering"]
+    skills: ["Accounts & Budgeting", "Quotations & Invoices", "Financial Planning"]
+  },
+  {
+    id: 5,
+    name: "Subilin",
+    role: "Full Stack Developer",
+    bio: "Website and web application development, frontend & backend implementation, API integration and maintenance.",
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+    skills: ["Full Stack Dev", "Frontend & Backend", "API Integration", "Web Apps"],
+    github: "https://github.com"
+  },
+  {
+    id: 6,
+    name: "Nitara",
+    role: "AI & Backend Developer",
+    bio: "AI solutions and automation, backend development, database management, and machine learning integration.",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
+    skills: ["AI Solutions", "Backend Development", "Database Management", "ML Integration"],
+    github: "https://github.com"
+  },
+  {
+    id: 7,
+    name: "Sushmitha",
+    role: "Business Development & Customer Support Executive",
+    bio: "Identifies potential clients, builds customer relationships, handles inquiries, coordinates throughout project lifecycle, and supports sales & retention.",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+    skills: ["Business Development", "Customer Support", "Client Relationships", "Sales Growth"]
   }
 ];
 
@@ -381,8 +659,8 @@ export const FAQS: FAQItem[] = [
   },
   {
     id: 2,
-    question: "How can a 1-month-old startup deliver complex construction & digital projects?",
-    answer: "While NexaFusion as an entity launched 1 month ago, our co-founders Viknesh VR, Hari Prasath, and Tamil bring deep individual experience in civil engineering and digital systems. We have already successfully completed 6 projects across construction, waterproofing, and content creation.",
+    question: "How can a 1-year-old company deliver complex construction & digital projects?",
+    answer: "While NexaFusion as an entity launched 1 year ago, our co-founders Vickey, Hari Prasath, and Bharath bring deep individual experience in civil engineering, AI, and digital systems. We have already successfully completed 50+ projects across construction, waterproofing, web development, and content creation.",
     category: "General"
   },
   {

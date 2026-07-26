@@ -14,18 +14,18 @@ const navLinks = [
     href: "/services",
     children: [
       // ── Domain 1: AI & Digital Solutions ──
-      { name: "Website Development",    href: "/services#website-development" },
-      { name: "App Development",        href: "/services#mobile-app-development" },
-      { name: "Digital Marketing",      href: "/services#digital-marketing" },
-      { name: "Branding",               href: "/services#branding" },
-      { name: "Content Creation",       href: "/services#content-creation" },
-      { name: "AI Automations",         href: "/services#ai-automations" },
+      { name: "Website Development",    href: "/services/website-development" },
+      { name: "App Development",        href: "/services/mobile-app-development" },
+      { name: "Digital Marketing",      href: "/services/digital-marketing" },
+      { name: "Branding",               href: "/services/branding" },
+      { name: "Content Creation",       href: "/services/content-creation" },
+      { name: "AI Automations",         href: "/services/ai-automations" },
       // ── Domain 2: Construction & AI Solutions ──
-      { name: "Construction",           href: "/services#construction" },
-      { name: "Waterproofing",          href: "/services#waterproofing" },
-      { name: "Interior Design",        href: "/services#interior-design" },
-      { name: "Exterior Design",        href: "/services#exterior-design" },
-      { name: "Smart Home Installation",href: "/services#smart-home-installation" },
+      { name: "Construction",           href: "/services/construction" },
+      { name: "Waterproofing",          href: "/services/waterproofing" },
+      { name: "Interior Design",        href: "/services/interior-design" },
+      { name: "Exterior Design",        href: "/services/exterior-design" },
+      { name: "Smart Home Installation",href: "/services/smart-home-installation" },
     ],
   },
   { name: "Projects", href: "/projects" },
@@ -65,12 +65,12 @@ export default function Navbar() {
           <div className="relative h-10 w-10 overflow-hidden rounded-xl bg-blue-50 border border-blue-200 p-1 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform duration-300">
             <img
               src="/logo/logo.jpg"
-              alt="NexaFusion Logo"
+              alt="NexaFusion Groups Logo"
               className="h-full w-full object-contain rounded-lg"
             />
           </div>
           <span className="text-xl font-extrabold tracking-wider text-slate-800">
-            Nexa<span className="bg-gradient-to-r from-blue-600 via-blue-500 to-sky-500 bg-clip-text text-transparent">Fusion</span>
+            Nexa<span className="bg-gradient-to-r from-blue-600 via-blue-500 to-sky-500 bg-clip-text text-transparent">Fusion</span> Groups
           </span>
         </Link>
 

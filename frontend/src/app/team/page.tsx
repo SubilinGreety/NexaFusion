@@ -6,8 +6,8 @@ import CTABanner from "@/components/Common/CTABanner";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Team — NexaFusion",
-  description: "Meet the founders and engineering experts behind NexaFusion physical infrastructure and digital solutions.",
+  title: "Our Team — NexaFusion Groups",
+  description: "Meet the co-founders and engineering experts behind NexaFusion Groups physical infrastructure and digital solutions.",
 };
 
 export default function TeamPage() {
@@ -21,10 +21,10 @@ export default function TeamPage() {
           Leadership &amp; Talent
         </span>
         <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 mt-3 leading-tight">
-          Meet The <span className="text-gradient">NexaFusion Team</span>
+          Meet The <span className="text-gradient">NexaFusion Groups Team</span>
         </h1>
         <p className="text-slate-500 mt-4 text-base leading-relaxed">
-          Led by co-founders Vignesh V R, Hariprasath R, and Tamil, our team combines hands-on civil engineering expertise with modern digital agency capabilities.
+          Led by Vickey, Hari Prasath, Bharath, and Tamil, our team combines physical infrastructure expertise with modern digital agency and AI capabilities.
         </p>
       </div>
 

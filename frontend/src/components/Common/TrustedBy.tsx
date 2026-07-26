@@ -25,7 +25,7 @@ export default function TrustedBy() {
 
       <div className="section-container">
         <p className="text-center text-xs text-slate-400 uppercase tracking-widest mb-10 font-semibold">
-          Trusted by our 6 happy clients across industries
+          Trusted by our happy clients across industries
         </p>
         {/* Marquee */}
         <div className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,#000_15%,#000_85%,transparent)]">

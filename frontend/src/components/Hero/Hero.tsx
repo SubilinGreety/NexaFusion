@@ -20,9 +20,9 @@ import {
 } from "lucide-react";
 
 const stats = [
-  { value: "6",      label: "Projects Completed" },
-  { value: "1 mo",  label: "Experience" },
-  { value: "6",     label: "Happy Clients" },
+  { value: "50+",    label: "Projects Completed" },
+  { value: "1 Year", label: "Experience" },
+  { value: "50+",    label: "Happy Clients" },
   { value: "100%",  label: "Satisfaction Rate" },
 ];
 
@@ -80,7 +80,7 @@ export default function Hero() {
 
         {/* ── Sub-heading ── */}
         <p className="text-slate-500 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-          From launching web apps to civil construction — NexaFusion delivers
+          From launching web apps to civil construction — NexaFusion Groups delivers
           world-class digital, design, content, and infrastructure services with
           unmatched craftsmanship.
         </p>

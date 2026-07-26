@@ -7,6 +7,11 @@ export interface ServiceItem {
   iconName: string;
   category: 'AI & Digital Solutions' | 'Construction & AI Solutions' | 'Physical' | 'Digital' | 'Design';
   features: string[];
+  image?: string;
+  gallery?: string[];
+  benefits?: string[];
+  deliverables?: string[];
+  process?: { step: string; title: string; desc: string }[];
 }
 
 export interface PortfolioItem {

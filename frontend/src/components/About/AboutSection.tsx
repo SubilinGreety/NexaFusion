@@ -17,7 +17,7 @@ export default function AboutSection() {
               NexaFusion is a dynamic, multi-service startup founded with a bold mission: to be the single trusted partner for businesses and individuals who need construction, design, content, and digital expertise — all under one roof. We bring together passionate professionals who love what they do and believe that great work begins with genuine care for our clients.
             </p>
             <p className="text-slate-500 leading-relaxed">
-              In just our first month, we have delivered 6 completed projects spanning construction, waterproofing, and content creation — building a foundation of trust, quality, and excellence that we intend to grow upon for years to come. Our team combines fresh energy with strong technical know-how to consistently exceed expectations.
+              In our first year, we have delivered 50+ completed projects spanning construction, waterproofing, content creation, and digital solutions — building a foundation of trust, quality, and excellence that we intend to grow upon for years to come. Our team combines fresh energy with strong technical know-how to consistently exceed expectations.
             </p>
             <p className="text-slate-500 leading-relaxed">
               From erecting residential structures to waterproofing commercial spaces, crafting scroll-stopping content, designing brand identities, building websites, developing apps, and running digital campaigns — NexaFusion is your end-to-end partner for growth.
@@ -57,12 +57,12 @@ export default function AboutSection() {
             <div className="absolute inset-0 m-auto w-40 h-40 bg-accent-purple/10 rounded-full blur-2xl -z-10"></div>
 
             <div className="bg-white border border-slate-200 rounded-2xl p-8 text-center shadow-sm hover:shadow-lg hover:border-blue-300 transition-all">
-              <h3 className="text-4xl sm:text-5xl font-extrabold text-gradient mb-2">6</h3>
+              <h3 className="text-4xl sm:text-5xl font-extrabold text-gradient mb-2">50+</h3>
               <p className="text-slate-500 text-xs sm:text-sm font-semibold uppercase tracking-wider">Projects Completed</p>
             </div>
 
             <div className="bg-white border border-slate-200 rounded-2xl p-8 text-center shadow-sm hover:shadow-lg hover:border-blue-300 transition-all mt-6">
-              <h3 className="text-4xl sm:text-5xl font-extrabold text-gradient mb-2">6</h3>
+              <h3 className="text-4xl sm:text-5xl font-extrabold text-gradient mb-2">50+</h3>
               <p className="text-slate-500 text-xs sm:text-sm font-semibold uppercase tracking-wider">Happy Clients</p>
             </div>
 

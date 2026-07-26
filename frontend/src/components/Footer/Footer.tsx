@@ -61,16 +61,16 @@ export default function Footer() {
               <div className="relative h-10 w-10 overflow-hidden rounded-xl bg-white/10 border border-blue-400/20 p-1 flex items-center justify-center shadow-lg">
                 <img
                   src="/logo/logo.jpg"
-                  alt="NexaFusion Logo"
+                  alt="NexaFusion Groups Logo"
                   className="h-full w-full object-contain rounded-lg"
                 />
               </div>
               <span className="text-xl font-extrabold tracking-wider text-white">
-                Nexa<span className="bg-gradient-to-r from-blue-400 to-sky-400 bg-clip-text text-transparent">Fusion</span>
+                Nexa<span className="bg-gradient-to-r from-blue-400 to-sky-400 bg-clip-text text-transparent">Fusion</span> Groups
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
-              NexaFusion is your multi-service partner for website & mobile development, UI/UX, branding, content creation, digital marketing, and construction services. Building Intelligent Futures.
+              NexaFusion Groups is your multi-service partner for website & mobile development, UI/UX, branding, content creation, digital marketing, and construction services. Building Intelligent Futures.
             </p>
             <div className="flex items-center gap-3">
               {social.map(({ icon: Icon, href, label }) => (
@@ -164,7 +164,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-slate-700/50 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-xs">
-          <p>&copy; {year} NexaFusion. All rights reserved.</p>
+          <p>&copy; {year} NexaFusion Groups. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/privacy-policy" className="hover:text-slate-300 transition-colors">
               Privacy Policy

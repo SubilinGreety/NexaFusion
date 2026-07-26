@@ -75,9 +75,9 @@ export default function ContactForm() {
             <button
               type="button"
               onClick={handleWhatsAppClick}
-              className="text-xs px-3.5 py-2 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-700 font-semibold flex items-center gap-1.5 hover:bg-emerald-100 transition-all"
+              className="text-xs px-3.5 py-2 rounded-lg bg-slate-100 border border-slate-200 text-slate-700 font-semibold flex items-center gap-1.5 hover:bg-slate-200 transition-all"
             >
-              <MessageSquare className="w-4 h-4" />
+              <MessageSquare className="w-4 h-4 text-slate-600" />
               WhatsApp Direct
             </button>
           </div>

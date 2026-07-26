@@ -2,7 +2,7 @@
  * Application-wide constants for the NexaFusion frontend.
  */
 
-export const SITE_NAME = 'NexaFusion';
+export const SITE_NAME = 'NexaFusion Groups';
 export const SITE_TAGLINE = 'Building Intelligent Futures';
 export const API_BASE_URL = 'http://localhost:8080/api';
 export const ADMIN_TOKEN_KEY = 'nexafusion_admin_token';

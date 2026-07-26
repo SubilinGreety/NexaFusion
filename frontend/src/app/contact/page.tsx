@@ -7,8 +7,8 @@ import { COMPANY_INFO } from '@/data/mockData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Contact Us — NexaFusion",
-  description: "Get in touch with NexaFusion for website development, mobile apps, UI/UX, digital marketing, content creation, and construction services.",
+  title: "Contact Us — NexaFusion Groups",
+  description: "Get in touch with NexaFusion Groups for website development, mobile apps, UI/UX, digital marketing, content creation, and construction services.",
 };
 
 export default function ContactPage() {
@@ -37,16 +37,16 @@ export default function ContactPage() {
                 href={`https://wa.me/${COMPANY_INFO.contact.whatsapp}?text=Hello%20NexaFusion%2C%20I%20would%20like%20to%20inquire%20about%20your%20services.`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-5 py-3 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-700 font-bold text-sm flex items-center gap-2.5 hover:bg-emerald-100 transition-all shadow-sm"
+                className="px-5 py-3 rounded-xl bg-slate-100 border border-slate-200 text-slate-700 font-bold text-sm flex items-center gap-2.5 hover:bg-slate-200 transition-all shadow-sm"
               >
-                <MessageSquare className="w-4.5 h-4.5" />
+                <MessageSquare className="w-4.5 h-4.5 text-slate-600" />
                 <span>Chat on WhatsApp</span>
               </a>
               <a
                 href={`tel:${COMPANY_INFO.contact.phone}`}
-                className="px-5 py-3 rounded-xl bg-blue-50 border border-blue-200 text-blue-700 font-bold text-sm flex items-center gap-2.5 hover:bg-blue-100 transition-all shadow-sm"
+                className="px-5 py-3 rounded-xl bg-slate-100 border border-slate-200 text-slate-700 font-bold text-sm flex items-center gap-2.5 hover:bg-slate-200 transition-all shadow-sm"
               >
-                <Phone className="w-4.5 h-4.5" />
+                <Phone className="w-4.5 h-4.5 text-slate-600" />
                 <span>Call Us Direct</span>
               </a>
             </div>
@@ -54,8 +54,8 @@ export default function ContactPage() {
             {/* Detailed Cards */}
             <div className="flex flex-col gap-6">
               <div className="flex items-start gap-4">
-                <div className="w-11 h-11 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600 shrink-0">
-                  <MapPin className="w-5 h-5" />
+                <div className="w-11 h-11 rounded-xl bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-700 shrink-0">
+                  <MapPin className="w-5 h-5 text-slate-600" />
                 </div>
                 <div className="flex flex-col">
                   <h4 className="text-slate-800 font-bold text-sm">Office Address</h4>
@@ -66,8 +66,8 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-11 h-11 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600 shrink-0">
-                  <Phone className="w-5 h-5" />
+                <div className="w-11 h-11 rounded-xl bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-700 shrink-0">
+                  <Phone className="w-5 h-5 text-slate-600" />
                 </div>
                 <div className="flex flex-col">
                   <h4 className="text-slate-800 font-bold text-sm">Phone Numbers</h4>
@@ -83,8 +83,8 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-11 h-11 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600 shrink-0">
-                  <Mail className="w-5 h-5" />
+                <div className="w-11 h-11 rounded-xl bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-700 shrink-0">
+                  <Mail className="w-5 h-5 text-slate-600" />
                 </div>
                 <div className="flex flex-col">
                   <h4 className="text-slate-800 font-bold text-sm">Email Address</h4>
@@ -114,8 +114,8 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="p-4 border border-blue-200 bg-blue-50 rounded-xl flex items-center gap-3">
-              <Sparkles className="w-5 h-5 text-blue-600 shrink-0" />
+            <div className="p-4 border border-slate-200 bg-slate-100 rounded-xl flex items-center gap-3">
+              <Sparkles className="w-5 h-5 text-slate-600 shrink-0" />
               <span className="text-xs text-slate-600">Direct response guaranteed within 24 hours.</span>
             </div>
           </div>

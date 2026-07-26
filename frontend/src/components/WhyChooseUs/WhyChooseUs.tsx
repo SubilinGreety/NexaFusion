@@ -4,7 +4,6 @@ import {
   Clock,
   Headphones,
   TrendingUp,
-  Users,
   Rocket,
 } from "lucide-react";
 
@@ -19,7 +18,7 @@ const reasons = [
     icon: Clock,
     color: "text-amber-600 bg-amber-50",
     title: "On-Time Delivery",
-    desc: "We set realistic timelines and stick to them. Every one of our 6 completed projects was delivered on or before the agreed date.",
+    desc: "We set realistic timelines and stick to them. Every one of our 50+ completed projects was delivered on or before the agreed date.",
   },
   {
     icon: ShieldCheck,
@@ -39,19 +38,6 @@ const reasons = [
     title: "Growth-Focused Mindset",
     desc: "Every service we offer is designed to add real value — whether it's protecting your building or boosting your brand reach online.",
   },
-  {
-    icon: Users,
-    color: "text-rose-600 bg-rose-50",
-    title: "Passionate Multi-Skilled Team",
-    desc: "From civil engineers to content creators, our diverse team brings complementary expertise to handle any challenge you bring.",
-  },
-];
-
-const metrics = [
-  { value: "6",     label: "Projects Completed" },
-  { value: "100%",  label: "Client Satisfaction" },
-  { value: "1 mo",  label: "In Business" },
-  { value: "7",     label: "Team Members" },
 ];
 
 export default function WhyChooseUs() {
@@ -63,28 +49,15 @@ export default function WhyChooseUs() {
       <div className="section-container relative z-10">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="section-label">Why Choose NexaFusion</span>
+          <span className="section-label">Why Choose NexaFusion Groups</span>
           <h2 className="section-title mt-3">
-            The NexaFusion{" "}
+            The NexaFusion Groups{" "}
             <span className="text-gradient">Difference</span>
           </h2>
           <p className="text-slate-500 mt-4 leading-relaxed">
             We combine hands-on expertise, fresh startup energy, and genuine care
             for your goals to deliver results that exceed expectations every time.
           </p>
-        </div>
-
-        {/* Metrics strip */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
-          {metrics.map((m) => (
-            <div
-              key={m.label}
-              className="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md hover:border-blue-300 transition-all duration-300"
-            >
-              <div className="text-3xl font-extrabold text-blue-700 mb-1">{m.value}</div>
-              <div className="text-sm text-slate-500">{m.label}</div>
-            </div>
-          ))}
         </div>
 
         {/* Cards grid */}

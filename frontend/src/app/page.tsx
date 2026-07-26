@@ -11,11 +11,11 @@ import CTABanner from "@/components/Common/CTABanner";
 import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
-  title: "NexaFusion — Multi-Service Platform | Digital & Construction",
+  title: "NexaFusion Groups — Multi-Service Platform | Digital & Construction",
   description:
-    "NexaFusion delivers world-class Website Development, Mobile Apps, UI/UX, Digital Marketing, Branding, Content Creation, Interior & Exterior Design, Waterproofing, and Construction — all under one roof.",
+    "NexaFusion Groups delivers world-class Website Development, Mobile Apps, UI/UX, Digital Marketing, Branding, Content Creation, Interior & Exterior Design, Waterproofing, and Construction — all under one roof.",
   keywords: [
-    "NexaFusion",
+    "NexaFusion Groups",
     "website development",
     "mobile app development",
     "UI UX design",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "multi-service platform",
   ],
   openGraph: {
-    title: "NexaFusion — Multi-Service Platform",
+    title: "NexaFusion Groups — Multi-Service Platform",
     description: "Ten premium services. One trusted partner.",
     url: "https://www.nexafusion.com",
     type: "website",

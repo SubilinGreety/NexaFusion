@@ -4,7 +4,7 @@ import { Quote, Star } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "NexaFusion handled our villa construction from foundation to finishing. The quality exceeded our expectations, and the team was incredibly professional. Highly recommend them!",
+      "NexaFusion Groups handled our villa construction from foundation to finishing. The quality exceeded our expectations, and the team was incredibly professional. Highly recommend them!",
     author: "Ramesh Kumar",
     role: "Director, BuildCraft Solutions",
     rating: 5,
@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     quote:
-      "We had persistent water seepage in our basement for years. NexaFusion's waterproofing team identified the root cause and resolved it completely. It has been bone-dry since!",
+      "We had persistent water seepage in our basement for years. NexaFusion Groups' waterproofing team identified the root cause and resolved it completely. It has been bone-dry since!",
     author: "Anitha Selvam",
     role: "Owner, AquaShield Realty",
     rating: 5,
@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     quote:
-      "The promotional video series NexaFusion created for our food app went viral on Instagram. Their creativity and attention to detail is remarkable — truly a fantastic team!",
+      "The promotional video series NexaFusion Groups created for our food app went viral on Instagram. Their creativity and attention to detail is remarkable — truly a fantastic team!",
     author: "Karthik Rajan",
     role: "Founder, SwiftFood Delivery",
     rating: 5,
@@ -34,7 +34,7 @@ const testimonials = [
   },
   {
     quote:
-      "NexaFusion delivered our office construction project 2 days ahead of schedule without cutting any corners. The craftsmanship and communication throughout was outstanding.",
+      "NexaFusion Groups delivered our office construction project 2 days ahead of schedule without cutting any corners. The craftsmanship and communication throughout was outstanding.",
     author: "Priya Mohan",
     role: "COO, SwiftBuild Infra",
     rating: 5,
@@ -44,7 +44,7 @@ const testimonials = [
   },
   {
     quote:
-      "Our terrace was leaking every monsoon. NexaFusion applied a premium waterproofing solution and the problem is completely gone. Great value for the service rendered.",
+      "Our terrace was leaking every monsoon. NexaFusion Groups applied a premium waterproofing solution and the problem is completely gone. Great value for the service rendered.",
     author: "Suresh Babu",
     role: "Property Manager, TerraForm Homes",
     rating: 5,
@@ -54,7 +54,7 @@ const testimonials = [
   },
   {
     quote:
-      "The brand content NexaFusion created for our product launch exceeded all expectations. The reels they made generated thousands of organic views in just the first week!",
+      "The brand content NexaFusion Groups created for our product launch exceeded all expectations. The reels they made generated thousands of organic views in just the first week!",
     author: "Divya Nair",
     role: "Marketing Head, PixelNova Agency",
     rating: 5,

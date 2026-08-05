@@ -37,16 +37,6 @@ export interface TestimonialItem {
   projectType: string;
 }
 
-export interface TeamMember {
-  id: number;
-  name: string;
-  role: string;
-  bio: string;
-  image: string;
-  skills: string[];
-  linkedin?: string;
-  github?: string;
-}
 
 export interface FAQItem {
   id: number;

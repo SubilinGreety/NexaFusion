@@ -5,7 +5,7 @@ import TrustedBy from "@/components/Common/TrustedBy";
 import ServicesSection from "@/components/Services/ServicesSection";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 import Testimonials from "@/components/Testimonials/Testimonials";
-import Team from "@/components/Team/Team";
+
 import FAQ from "@/components/FAQ/FAQ";
 import CTABanner from "@/components/Common/CTABanner";
 import Footer from "@/components/Footer/Footer";
@@ -62,8 +62,6 @@ export default function HomePage() {
         {/* 5. Testimonials */}
         <Testimonials />
 
-        {/* 6. Team */}
-        <Team />
 
         {/* 7. FAQ Accordion */}
         <FAQ />

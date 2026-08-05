@@ -29,7 +29,6 @@ const navLinks = [
     ],
   },
   { name: "Projects", href: "/projects" },
-  { name: "Team", href: "/team" },
   { name: "FAQ", href: "/faq" },
   { name: "Contact", href: "/contact" },
 ];

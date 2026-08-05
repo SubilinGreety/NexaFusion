@@ -1,4 +1,4 @@
-import { COMPLETED_PROJECTS, SERVICES, FAQS, TEAM_MEMBERS } from '@/data/mockData';
+import { COMPLETED_PROJECTS, SERVICES, FAQS } from '@/data/mockData';
 
 /**
  * Pure static data helpers with loose signature signatures for 100% build compatibility
@@ -54,6 +54,4 @@ export const faqApi = {
   getAll: async (..._args: any[]) => FAQS,
 };
 
-export const teamApi = {
-  getAll: async (..._args: any[]) => TEAM_MEMBERS,
-};
+

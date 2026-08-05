@@ -1,4 +1,4 @@
-import { ServiceItem, PortfolioItem, TestimonialItem, TeamMember, FAQItem, BlogPost } from '@/types';
+import { ServiceItem, PortfolioItem, TestimonialItem, FAQItem, BlogPost } from '@/types';
 
 export const COMPANY_INFO = {
   name: "NexaFusion Groups",
@@ -585,70 +585,6 @@ export const TESTIMONIALS: TestimonialItem[] = [
   }
 ];
 
-export const TEAM_MEMBERS: TeamMember[] = [
-  {
-    id: 1,
-    name: "Vickey",
-    role: "Founder",
-    bio: "Defines the company's vision and strategy, builds partnerships, drives business growth, and oversees major business decisions.",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
-    skills: ["Vision & Strategy", "Partnerships", "Business Growth", "Executive Decision Making"],
-    linkedin: "https://linkedin.com"
-  },
-  {
-    id: 2,
-    name: "Hari Prasath",
-    role: "CEO & CTO",
-    bio: "Leads the company and technology strategy, oversees software, AI, websites, and digital solutions, manages technical team, handles client meetings and solution architecture.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
-    skills: ["Tech Strategy", "Software & AI", "Solution Architecture", "Technical Leadership"],
-    linkedin: "https://linkedin.com",
-    github: "https://github.com"
-  },
-  {
-    id: 3,
-    name: "Bharath",
-    role: "COO",
-    bio: "Manages daily operations, coordinates projects and resources, ensures smooth execution and timely delivery across all domains.",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80",
-    skills: ["Operations", "Project Coordination", "Resource Management", "Timely Delivery"],
-    linkedin: "https://linkedin.com"
-  },
-  {
-    id: 4,
-    name: "Tamil",
-    role: "Finance Head",
-    bio: "Manages accounts, budgeting, quotations, invoices, and financial planning for NexaFusion Groups.",
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=400&q=80",
-    skills: ["Accounts & Budgeting", "Quotations & Invoices", "Financial Planning"]
-  },
-  {
-    id: 5,
-    name: "Subilin",
-    role: "Full Stack Developer",
-    bio: "Website and web application development, frontend & backend implementation, API integration and maintenance.",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
-    skills: ["Full Stack Dev", "Frontend & Backend", "API Integration", "Web Apps"],
-    github: "https://github.com"
-  },
-  {
-    id: 6,
-    name: "Nitara",
-    role: "AI & Backend Developer",
-    bio: "AI solutions and automation, backend development, database management, and machine learning integration.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
-    skills: ["AI Solutions", "Backend Development", "Database Management", "ML Integration"],
-    github: "https://github.com"
-  },
-  {
-    id: 7,
-    name: "Sushmitha",
-    role: "Business Development & Customer Support Executive",
-    bio: "Identifies potential clients, builds customer relationships, handles inquiries, coordinates throughout project lifecycle, and supports sales & retention.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
-    skills: ["Business Development", "Customer Support", "Client Relationships", "Sales Growth"]
-  }
-];
 
 export const FAQS: FAQItem[] = [
   {

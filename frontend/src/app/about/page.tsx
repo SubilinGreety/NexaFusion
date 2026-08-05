@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '@/components/Navbar/Navbar';
 import AboutSection from '@/components/About/AboutSection';
-import Team from '@/components/Team/Team';
+
 import Footer from '@/components/Footer/Footer';
 import CTABanner from '@/components/Common/CTABanner';
 
@@ -23,7 +23,7 @@ export default function AboutPage() {
           </p>
         </div>
         <AboutSection />
-        <Team />
+
         <CTABanner />
       </div>
       <Footer />
